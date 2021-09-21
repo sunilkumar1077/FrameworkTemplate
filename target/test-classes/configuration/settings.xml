@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<run-configurations>
+
+	<initial-setup set="true">
+    		
+    		<create-test-template set="true">
+    			<file-name>SignUp</file-name>
+    		</create-test-template>
+    		
+    		<update-corrupt-files set="false">
+    			<parent-folder>org</parent-folder>
+    		</update-corrupt-files>
+    		
+	</initial-setup>
+	
+	
+</run-configurations>
