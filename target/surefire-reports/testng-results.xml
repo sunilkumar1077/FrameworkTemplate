@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-24T00:59:37 IST" name="Suite" finished-at="2021-09-24T01:03:11 IST" duration-ms="214128">
+    <groups>
+    </groups>
+    <test started-at="2021-09-24T00:59:37 IST" name="Test" finished-at="2021-09-24T01:03:11 IST" duration-ms="214128">
+      <class name="ETS.CCIntake">
+        <test-method signature="main()[pri:0, instance:ETS.CCIntake@738dc9b]" started-at="2021-09-24T00:59:37 IST" name="main" finished-at="2021-09-24T01:01:57 IST" duration-ms="139738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- ETS.CCIntake -->
+      <class name="ETS.ETS_Login">
+        <test-method signature="main()[pri:0, instance:ETS.ETS_Login@5b1669c0]" started-at="2021-09-24T01:01:57 IST" name="main" finished-at="2021-09-24T01:03:11 IST" duration-ms="74342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- ETS.ETS_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

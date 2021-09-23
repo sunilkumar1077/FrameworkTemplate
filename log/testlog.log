@@ -1,277 +1,277 @@
-2021-09-17 15:42:40,144 0 [main] INFO  global.DataReader$::PreRequisites:DataReader  - Navigated to sheet name : ETS_Login
-2021-09-17 15:42:40,283 139 [main] INFO  ETS.ETS_Login$TestFlow:PreRequisites:DataReader  -  CommonData sheet is not present in Data_Mobile.xlsx
-2021-09-17 15:42:40,989 845 [main] INFO  wdm.WebDriverManager  - Using chromedriver 93.0.4577.63 (since Google Chrome 93 is installed in your machine)
-2021-09-17 15:42:41,003 859 [main] INFO  wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\SunilSaxena\.m2\repository\webdriver\chromedriver\win32\93.0.4577.63\chromedriver.exe
-2021-09-17 15:42:42,414 2270 [main] INFO  open_browser:Browser  - Google Chrome is Launched : ChromeDriver: chrome on WINDOWS (532a337a5ec993ef4fab57831d600129)
-2021-09-17 15:42:42,530 2386 [main] INFO  open_browser:Browser  - Browser Maximize
-2021-09-17 15:43:04,054 23910 [main] INFO  open_browser:Browser  - Opening URL https://dev.aosen.ai/rivendell/#/SignIn
-2021-09-17 15:43:04,060 23916 [main] INFO  Reading the OR File Using Excel  - Starting the Excel-OR Reading
-2021-09-17 15:43:04,138 23994 [main] INFO  Reading the OR File Using Excel  - Completed the Excel-OR Reading
-2021-09-17 15:43:04,141 23997 [main] INFO  Element Located in OR  - Element with LoginID Found in OR
-2021-09-17 15:43:04,141 23997 [main] INFO  login:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@id='loginId']
-2021-09-17 15:43:04,298 24154 [main] INFO  login:TextBox  - Values are sucessfully entered in textbox.NA272583
-2021-09-17 15:43:04,298 24154 [main] INFO  Element Located in OR  - Element with Password Found in OR
-2021-09-17 15:43:04,298 24154 [main] INFO  login:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@id='password']
-2021-09-17 15:43:04,388 24244 [main] INFO  login:TextBox  - Values are sucessfully entered in textbox.llUU12!@
-2021-09-17 15:43:04,389 24245 [main] INFO  Element Located in OR  - Element with SignIN Found in OR
-2021-09-17 15:43:04,389 24245 [main] INFO  login:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text() = ' SIGN IN']
-2021-09-17 15:43:04,453 24309 [main] INFO  login:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (532a337a5ec993ef4fab57831d600129)] -> xpath: //*[text() = ' SIGN IN']]is clicked successfully.
-2021-09-17 15:43:04,453 24309 [main] INFO  Reading the OR File Using Excel  - Starting the Excel-OR Reading
-2021-09-17 15:43:04,499 24355 [main] INFO  Reading the OR File Using Excel  - Completed the Excel-OR Reading
-2021-09-17 15:43:24,501 44357 [main] INFO  Element Located in OR  - Element with Username Found in OR
-2021-09-17 15:43:24,502 44358 [main] INFO  homePage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@class='userNameText']
-2021-09-17 15:43:39,587 59443 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
+2021-09-24 00:59:39,467 0 [main] INFO  global.DataReader$::PreRequisites:DataReader  - Navigated to sheet name : CCIntake
+2021-09-24 00:59:39,704 237 [main] INFO  ETS.CCIntake$TestFlow:PreRequisites:DataReader  -  CommonData sheet is not present in Data_Mobile.xlsx
+2021-09-24 00:59:40,556 1089 [main] INFO  wdm.WebDriverManager  - Using chromedriver 94.0.4606.41 (since Google Chrome 94 is installed in your machine)
+2021-09-24 00:59:40,575 1108 [main] INFO  wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\SunilSaxena\.m2\repository\webdriver\chromedriver\win32\94.0.4606.41\chromedriver.exe
+2021-09-24 00:59:42,336 2869 [main] INFO  open_browser:Browser  - Google Chrome is Launched : ChromeDriver: chrome on WINDOWS (94c9b767ebc3f64022d7393d440b657d)
+2021-09-24 00:59:42,462 2995 [main] INFO  open_browser:Browser  - Browser Maximize
+2021-09-24 01:00:04,009 24542 [main] INFO  open_browser:Browser  - Opening URL https://dev.aosen.ai/rivendell/#/SignIn
+2021-09-24 01:00:04,011 24544 [main] INFO  Reading the OR File Using Excel  - Starting the Excel-OR Reading
+2021-09-24 01:00:04,091 24624 [main] INFO  Reading the OR File Using Excel  - Completed the Excel-OR Reading
+2021-09-24 01:00:04,097 24630 [main] INFO  Element Located in OR  - Element with SignUp Found in OR
+2021-09-24 01:00:04,097 24630 [main] INFO  navigate_CC_SignUpPage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text()='Sign Up']
+2021-09-24 01:00:04,250 24783 [main] INFO  navigate_CC_SignUpPage:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (94c9b767ebc3f64022d7393d440b657d)] -> xpath: //*[text()='Sign Up']] exists.
+2021-09-24 01:00:04,913 25446 [main] INFO  Element Located in OR  - Element with SignUp Found in OR
+2021-09-24 01:00:04,914 25447 [main] INFO  navigate_CC_SignUpPage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text()='Sign Up']
+2021-09-24 01:00:05,012 25545 [main] INFO  navigate_CC_SignUpPage:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (94c9b767ebc3f64022d7393d440b657d)] -> xpath: //*[text()='Sign Up']]is clicked successfully.
+2021-09-24 01:00:05,012 25545 [main] INFO  Element Located in OR  - Element with CCSignUp Found in OR
+2021-09-24 01:00:05,014 25547 [main] INFO  navigate_CC_SignUpPage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text()=' Community Coordinator']
+2021-09-24 01:00:05,098 25631 [main] INFO  navigate_CC_SignUpPage:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (94c9b767ebc3f64022d7393d440b657d)] -> xpath: //*[text()=' Community Coordinator']] exists.
+2021-09-24 01:00:05,855 26388 [main] INFO  Element Located in OR  - Element with CCSignUp Found in OR
+2021-09-24 01:00:05,856 26389 [main] INFO  navigate_CC_SignUpPage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text()=' Community Coordinator']
+2021-09-24 01:00:05,949 26482 [main] INFO  navigate_CC_SignUpPage:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (94c9b767ebc3f64022d7393d440b657d)] -> xpath: //*[text()=' Community Coordinator']]is clicked successfully.
+2021-09-24 01:00:05,949 26482 [main] INFO  Reading the OR File Using Excel  - Starting the Excel-OR Reading
+2021-09-24 01:00:06,018 26551 [main] INFO  Reading the OR File Using Excel  - Completed the Excel-OR Reading
+2021-09-24 01:00:06,020 26553 [main] INFO  Element Located in OR  - Element with Prefix Found in OR
+2021-09-24 01:00:06,021 26554 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='prefix']
+2021-09-24 01:00:07,902 28435 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+2021-09-24 01:00:07,903 28436 [main] INFO  Element Located in OR  - Element with FirstName Found in OR
+2021-09-24 01:00:07,904 28437 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='firstName']
+2021-09-24 01:00:08,126 28659 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.Emily
+2021-09-24 01:00:08,127 28660 [main] INFO  Element Located in OR  - Element with MiddleName Found in OR
+2021-09-24 01:00:08,127 28660 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='middleName']
+2021-09-24 01:00:08,278 28811 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.
+2021-09-24 01:00:08,279 28812 [main] INFO  Element Located in OR  - Element with LastName Found in OR
+2021-09-24 01:00:08,279 28812 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='lastName']
+2021-09-24 01:00:08,481 29014 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.Green
+2021-09-24 01:00:08,482 29015 [main] INFO  Element Located in OR  - Element with Suffix Found in OR
+2021-09-24 01:00:08,482 29015 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='suffix']
+2021-09-24 01:00:08,615 29148 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.
+2021-09-24 01:00:08,616 29149 [main] INFO  Element Located in OR  - Element with NickName Found in OR
+2021-09-24 01:00:08,616 29149 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='nickName']
+2021-09-24 01:00:08,756 29289 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.
+2021-09-24 01:00:08,756 29289 [main] INFO  Element Located in OR  - Element with DOB Found in OR
+2021-09-24 01:00:08,757 29290 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='dateOfBirth']
+2021-09-24 01:00:08,983 29516 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.01/21/1994
+2021-09-24 01:00:08,983 29516 [main] INFO  Element Located in OR  - Element with Gender Found in OR
+2021-09-24 01:00:08,984 29517 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='gender']
+2021-09-24 01:00:09,025 29558 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+2021-09-24 01:00:09,026 29559 [main] INFO  Element Located in OR  - Element with SexualOrientation Found in OR
+2021-09-24 01:00:09,026 29559 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='sexualOrientation']
+2021-09-24 01:00:09,067 29600 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+2021-09-24 01:00:09,068 29601 [main] INFO  Element Located in OR  - Element with AddressLine1 Found in OR
+2021-09-24 01:00:09,068 29601 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='streetAddress']
+2021-09-24 01:00:09,275 29808 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.125th Avenue
+2021-09-24 01:00:09,275 29808 [main] INFO  Element Located in OR  - Element with AddressLine2 Found in OR
+2021-09-24 01:00:09,275 29808 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='streetAddress2']
+2021-09-24 01:00:09,404 29937 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.
+2021-09-24 01:00:09,405 29938 [main] INFO  Element Located in OR  - Element with City Found in OR
+2021-09-24 01:00:09,405 29938 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='city']
+2021-09-24 01:00:09,600 30133 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.New York
+2021-09-24 01:00:09,600 30133 [main] INFO  Element Located in OR  - Element with Country Found in OR
+2021-09-24 01:00:09,600 30133 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='country']
+2021-09-24 01:00:09,643 30176 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+2021-09-24 01:00:09,644 30177 [main] INFO  Element Located in OR  - Element with State Found in OR
+2021-09-24 01:00:09,644 30177 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='state']
+2021-09-24 01:00:09,691 30224 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+2021-09-24 01:00:09,692 30225 [main] INFO  Element Located in OR  - Element with ZipCode Found in OR
+2021-09-24 01:00:09,692 30225 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='zipCode']
+2021-09-24 01:00:09,871 30404 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.99716
+2021-09-24 01:00:09,871 30404 [main] INFO  Element Located in OR  - Element with Email Found in OR
+2021-09-24 01:00:09,871 30404 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='email']
+2021-09-24 01:00:10,167 30700 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.automationtest998@alqimi.com
+2021-09-24 01:00:10,168 30701 [main] INFO  Element Located in OR  - Element with Phone Found in OR
+2021-09-24 01:00:10,168 30701 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='phone']
+2021-09-24 01:00:10,375 30908 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.7702065145
+2021-09-24 01:00:10,375 30908 [main] INFO  Element Located in OR  - Element with APP Found in OR
+2021-09-24 01:00:10,376 30909 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='affiliatedPartnerProgram']
+2021-09-24 01:00:10,431 30964 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+2021-09-24 01:00:10,432 30965 [main] INFO  Element Located in OR  - Element with MilitaryServed Found in OR
+2021-09-24 01:00:10,432 30965 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='militaryServed']
+2021-09-24 01:00:10,483 31016 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+2021-09-24 01:00:10,484 31017 [main] INFO  Element Located in OR  - Element with Branch Found in OR
+2021-09-24 01:00:10,484 31017 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='branch']
+2021-09-24 01:00:10,540 31073 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+2021-09-24 01:00:10,540 31073 [main] INFO  Element Located in OR  - Element with JobCode Found in OR
+2021-09-24 01:00:10,541 31074 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='jobCode']
+2021-09-24 01:00:10,644 31177 [main] ERROR fill_CCEnrollmentForm:TextBox  - org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=94.0.4606.54)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56402}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 532a337a5ec993ef4fab57831d600129
-2021-09-17 15:43:39,589 59445 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
-2021-09-17 15:43:39,589 59445 [main] ERROR Exception  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null
-2021-09-17 15:43:39,590 59446 [main] ERROR homePage:WebUIElement  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null
-2021-09-17 15:43:39,590 59446 [main] INFO  Element Located in OR  - Element with LogOff Found in OR
-2021-09-17 15:43:39,591 59447 [main] INFO  homePage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text() = 'Log off']
-2021-09-17 15:43:54,622 74478 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c9b767ebc3f64022d7393d440b657d
+2021-09-24 01:00:10,645 31178 [main] INFO  Element Located in OR  - Element with HighestRank Found in OR
+2021-09-24 01:00:10,645 31178 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='highestRank']
+2021-09-24 01:00:10,683 31216 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+2021-09-24 01:00:10,683 31216 [main] INFO  Element Located in OR  - Element with EntryBaseDate Found in OR
+2021-09-24 01:00:10,684 31217 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='payeEntryBaseDate']
+2021-09-24 01:00:25,779 46312 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56402}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 532a337a5ec993ef4fab57831d600129
-2021-09-17 15:43:54,624 74480 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
-2021-09-17 15:43:54,624 74480 [main] ERROR Exception  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null
-2021-09-17 15:43:54,624 74480 [main] ERROR homePage:WebUIElement  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null
-2021-09-17 15:43:54,820 74676 [main] INFO  global.DataReader$::PreRequisites:DataReader  - Navigated to sheet name : CCIntake
-2021-09-17 15:43:54,913 74769 [main] INFO  ETS.CCIntake$TestFlow:PreRequisites:DataReader  -  CommonData sheet is not present in Data_Mobile.xlsx
-2021-09-17 15:43:55,080 74936 [main] INFO  wdm.WebDriverManager  - Using chromedriver 93.0.4577.63 (since Google Chrome 93 is installed in your machine)
-2021-09-17 15:43:55,083 74939 [main] INFO  wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\SunilSaxena\.m2\repository\webdriver\chromedriver\win32\93.0.4577.63\chromedriver.exe
-2021-09-17 15:43:56,163 76019 [main] INFO  open_browser:Browser  - Google Chrome is Launched : ChromeDriver: chrome on WINDOWS (9e602329ea01cc42f833e6511627c567)
-2021-09-17 15:43:56,285 76141 [main] INFO  open_browser:Browser  - Browser Maximize
-2021-09-17 15:44:13,783 93639 [main] INFO  open_browser:Browser  - Opening URL https://dev.aosen.ai/rivendell/#/SignIn
-2021-09-17 15:44:13,784 93640 [main] INFO  Reading the OR File Using Excel  - Starting the Excel-OR Reading
-2021-09-17 15:44:13,842 93698 [main] INFO  Reading the OR File Using Excel  - Completed the Excel-OR Reading
-2021-09-17 15:44:13,843 93699 [main] INFO  Element Located in OR  - Element with SignUp Found in OR
-2021-09-17 15:44:13,843 93699 [main] INFO  navigate_CC_SignUpPage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text()='Sign Up']
-2021-09-17 15:44:13,900 93756 [main] INFO  navigate_CC_SignUpPage:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (9e602329ea01cc42f833e6511627c567)] -> xpath: //*[text()='Sign Up']] exists.
-2021-09-17 15:44:14,313 94169 [main] INFO  Element Located in OR  - Element with SignUp Found in OR
-2021-09-17 15:44:14,314 94170 [main] INFO  navigate_CC_SignUpPage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text()='Sign Up']
-2021-09-17 15:44:14,371 94227 [main] INFO  navigate_CC_SignUpPage:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (9e602329ea01cc42f833e6511627c567)] -> xpath: //*[text()='Sign Up']]is clicked successfully.
-2021-09-17 15:44:14,371 94227 [main] INFO  Element Located in OR  - Element with CCSignUp Found in OR
-2021-09-17 15:44:14,371 94227 [main] INFO  navigate_CC_SignUpPage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text()=' Community Coordinator']
-2021-09-17 15:44:14,411 94267 [main] INFO  navigate_CC_SignUpPage:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (9e602329ea01cc42f833e6511627c567)] -> xpath: //*[text()=' Community Coordinator']] exists.
-2021-09-17 15:44:14,895 94751 [main] INFO  Element Located in OR  - Element with CCSignUp Found in OR
-2021-09-17 15:44:14,896 94752 [main] INFO  navigate_CC_SignUpPage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text()=' Community Coordinator']
-2021-09-17 15:44:14,972 94828 [main] INFO  navigate_CC_SignUpPage:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (9e602329ea01cc42f833e6511627c567)] -> xpath: //*[text()=' Community Coordinator']]is clicked successfully.
-2021-09-17 15:44:14,972 94828 [main] INFO  Reading the OR File Using Excel  - Starting the Excel-OR Reading
-2021-09-17 15:44:15,024 94880 [main] INFO  Reading the OR File Using Excel  - Completed the Excel-OR Reading
-2021-09-17 15:44:15,026 94882 [main] INFO  Element Located in OR  - Element with Prefix Found in OR
-2021-09-17 15:44:15,026 94882 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='prefix']
-2021-09-17 15:44:18,604 98460 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: unknown
-2021-09-17 15:44:18,604 98460 [main] INFO  Element Located in OR  - Element with FirstName Found in OR
-2021-09-17 15:44:18,604 98460 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='firstName']
-2021-09-17 15:44:18,737 98593 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.Emily
-2021-09-17 15:44:18,738 98594 [main] INFO  Element Located in OR  - Element with MiddleName Found in OR
-2021-09-17 15:44:18,738 98594 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='middleName']
-2021-09-17 15:44:18,851 98707 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.
-2021-09-17 15:44:18,851 98707 [main] INFO  Element Located in OR  - Element with LastName Found in OR
-2021-09-17 15:44:18,852 98708 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='lastName']
-2021-09-17 15:44:18,957 98813 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.Green
-2021-09-17 15:44:18,958 98814 [main] INFO  Element Located in OR  - Element with Suffix Found in OR
-2021-09-17 15:44:18,958 98814 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='suffix']
-2021-09-17 15:44:19,056 98912 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.
-2021-09-17 15:44:19,056 98912 [main] INFO  Element Located in OR  - Element with NickName Found in OR
-2021-09-17 15:44:19,057 98913 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='nickName']
-2021-09-17 15:44:19,139 98995 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.
-2021-09-17 15:44:19,139 98995 [main] INFO  Element Located in OR  - Element with DOB Found in OR
-2021-09-17 15:44:19,139 98995 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='dateOfBirth']
-2021-09-17 15:44:19,260 99116 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.01/21/1994
-2021-09-17 15:44:19,260 99116 [main] INFO  Element Located in OR  - Element with Gender Found in OR
-2021-09-17 15:44:19,261 99117 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='gender']
-2021-09-17 15:44:19,291 99147 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: unknown
-2021-09-17 15:44:19,291 99147 [main] INFO  Element Located in OR  - Element with SexualOrientation Found in OR
-2021-09-17 15:44:19,291 99147 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='sexualOrientation']
-2021-09-17 15:44:19,316 99172 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: unknown
-2021-09-17 15:44:19,316 99172 [main] INFO  Element Located in OR  - Element with AddressLine1 Found in OR
-2021-09-17 15:44:19,316 99172 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='streetAddress']
-2021-09-17 15:44:19,431 99287 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.125th Avenue
-2021-09-17 15:44:19,431 99287 [main] INFO  Element Located in OR  - Element with AddressLine2 Found in OR
-2021-09-17 15:44:19,431 99287 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='streetAddress2']
-2021-09-17 15:44:19,513 99369 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.
-2021-09-17 15:44:19,513 99369 [main] INFO  Element Located in OR  - Element with City Found in OR
-2021-09-17 15:44:19,513 99369 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='city']
-2021-09-17 15:44:19,621 99477 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.New York
-2021-09-17 15:44:19,621 99477 [main] INFO  Element Located in OR  - Element with Country Found in OR
-2021-09-17 15:44:19,621 99477 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='country']
-2021-09-17 15:44:19,647 99503 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: unknown
-2021-09-17 15:44:19,648 99504 [main] INFO  Element Located in OR  - Element with State Found in OR
-2021-09-17 15:44:19,648 99504 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='state']
-2021-09-17 15:44:19,676 99532 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: unknown
-2021-09-17 15:44:19,676 99532 [main] INFO  Element Located in OR  - Element with ZipCode Found in OR
-2021-09-17 15:44:19,676 99532 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='zipCode']
-2021-09-17 15:44:19,784 99640 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.99716
-2021-09-17 15:44:19,784 99640 [main] INFO  Element Located in OR  - Element with Email Found in OR
-2021-09-17 15:44:19,784 99640 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='email']
-2021-09-17 15:44:19,945 99801 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.automationtest998@alqimi.com
-2021-09-17 15:44:19,945 99801 [main] INFO  Element Located in OR  - Element with Phone Found in OR
-2021-09-17 15:44:19,946 99802 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='phone']
-2021-09-17 15:44:20,072 99928 [main] INFO  fill_CCEnrollmentForm:TextBox  - Values are sucessfully entered in textbox.7702065145
-2021-09-17 15:44:20,072 99928 [main] INFO  Element Located in OR  - Element with APP Found in OR
-2021-09-17 15:44:20,072 99928 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='affiliatedPartnerProgram']
-2021-09-17 15:44:20,103 99959 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: unknown
-2021-09-17 15:44:20,103 99959 [main] INFO  Element Located in OR  - Element with MilitaryServed Found in OR
-2021-09-17 15:44:20,103 99959 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='militaryServed']
-2021-09-17 15:44:20,134 99990 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: unknown
-2021-09-17 15:44:20,135 99991 [main] INFO  Element Located in OR  - Element with Branch Found in OR
-2021-09-17 15:44:20,135 99991 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='branch']
-2021-09-17 15:44:20,165 100021 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: unknown
-2021-09-17 15:44:20,165 100021 [main] INFO  Element Located in OR  - Element with JobCode Found in OR
-2021-09-17 15:44:20,165 100021 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='jobCode']
-2021-09-17 15:44:20,227 100083 [main] ERROR fill_CCEnrollmentForm:TextBox  - org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
-  (Session info: chrome=93.0.4577.82)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c9b767ebc3f64022d7393d440b657d
+2021-09-24 01:00:25,780 46313 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
+2021-09-24 01:00:25,780 46313 [main] ERROR fill_CCEnrollmentForm:TextBox  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "this.b.element" is null
+2021-09-24 01:00:25,780 46313 [main] INFO  Element Located in OR  - Element with ETSDate Found in OR
+2021-09-24 01:00:25,780 46313 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='estimateTimeOfSeparation']
+2021-09-24 01:00:40,860 61393 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e602329ea01cc42f833e6511627c567
-2021-09-17 15:44:20,227 100083 [main] INFO  Element Located in OR  - Element with HighestRank Found in OR
-2021-09-17 15:44:20,228 100084 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='highestRank']
-2021-09-17 15:44:20,250 100106 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c9b767ebc3f64022d7393d440b657d
+2021-09-24 01:00:40,861 61394 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
+2021-09-24 01:00:40,861 61394 [main] ERROR fill_CCEnrollmentForm:TextBox  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "this.b.element" is null
+2021-09-24 01:00:40,862 61395 [main] INFO  Element Located in OR  - Element with DepOperation Found in OR
+2021-09-24 01:00:40,862 61395 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='location'])[1]
+2021-09-24 01:00:40,920 61453 [main] ERROR fill_CCEnrollmentForm:TextBox  - org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=94.0.4606.54)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c9b767ebc3f64022d7393d440b657d
+2021-09-24 01:00:40,921 61454 [main] INFO  Element Located in OR  - Element with DepCountry Found in OR
+2021-09-24 01:00:40,921 61454 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='country'])[1]
+2021-09-24 01:00:40,967 61500 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: driver.version: unknown
-2021-09-17 15:44:20,250 100106 [main] INFO  Element Located in OR  - Element with EntryBaseDate Found in OR
-2021-09-17 15:44:20,251 100107 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='payeEntryBaseDate']
-2021-09-17 15:44:35,265 115121 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e602329ea01cc42f833e6511627c567
-2021-09-17 15:44:35,266 115122 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
-2021-09-17 15:44:35,267 115123 [main] ERROR fill_CCEnrollmentForm:TextBox  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "this.b.element" is null
-2021-09-17 15:44:35,267 115123 [main] INFO  Element Located in OR  - Element with ETSDate Found in OR
-2021-09-17 15:44:35,267 115123 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='estimateTimeOfSeparation']
-2021-09-17 15:44:50,309 130165 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e602329ea01cc42f833e6511627c567
-2021-09-17 15:44:50,310 130166 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
-2021-09-17 15:44:50,311 130167 [main] ERROR fill_CCEnrollmentForm:TextBox  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "this.b.element" is null
-2021-09-17 15:44:50,311 130167 [main] INFO  Element Located in OR  - Element with DepOperation Found in OR
-2021-09-17 15:44:50,311 130167 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='location'])[1]
-2021-09-17 15:44:50,396 130252 [main] ERROR fill_CCEnrollmentForm:TextBox  - org.openqa.selenium.InvalidElementStateException: invalid element state
-  (Session info: chrome=93.0.4577.82)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e602329ea01cc42f833e6511627c567
-2021-09-17 15:44:50,396 130252 [main] INFO  Element Located in OR  - Element with DepCountry Found in OR
-2021-09-17 15:44:50,397 130253 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='country'])[1]
-2021-09-17 15:44:50,427 130283 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+2021-09-24 01:00:40,967 61500 [main] INFO  Element Located in OR  - Element with DepStartYear Found in OR
+2021-09-24 01:00:40,968 61501 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='startYear'])[1]
+2021-09-24 01:00:41,007 61540 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: driver.version: unknown
-2021-09-17 15:44:50,428 130284 [main] INFO  Element Located in OR  - Element with DepStartYear Found in OR
-2021-09-17 15:44:50,428 130284 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='startYear'])[1]
-2021-09-17 15:44:50,453 130309 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+2021-09-24 01:00:41,008 61541 [main] INFO  Element Located in OR  - Element with DepEndYear Found in OR
+2021-09-24 01:00:41,008 61541 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='endYear'])[1]
+2021-09-24 01:00:41,046 61579 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: driver.version: unknown
-2021-09-17 15:44:50,453 130309 [main] INFO  Element Located in OR  - Element with DepEndYear Found in OR
-2021-09-17 15:44:50,454 130310 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='endYear'])[1]
-2021-09-17 15:44:50,482 130338 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+2021-09-24 01:00:41,047 61580 [main] INFO  Element Located in OR  - Element with AddDeployment Found in OR
+2021-09-24 01:00:41,047 61580 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@class='addBtn mw_165']
+2021-09-24 01:00:56,145 76678 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c9b767ebc3f64022d7393d440b657d
+2021-09-24 01:00:56,145 76678 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
+2021-09-24 01:00:56,146 76679 [main] ERROR Exception  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null
+2021-09-24 01:00:56,146 76679 [main] ERROR fill_CCEnrollmentForm:WebUIElement  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null
+2021-09-24 01:00:56,146 76679 [main] INFO  Element Located in OR  - Element with DepOperation1 Found in OR
+2021-09-24 01:00:56,146 76679 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='location'])[2]
+2021-09-24 01:01:11,220 91753 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c9b767ebc3f64022d7393d440b657d
+2021-09-24 01:01:11,221 91754 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
+2021-09-24 01:01:11,221 91754 [main] ERROR fill_CCEnrollmentForm:TextBox  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "this.b.element" is null
+2021-09-24 01:01:11,221 91754 [main] INFO  Element Located in OR  - Element with DepCountry1 Found in OR
+2021-09-24 01:01:11,221 91754 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='country'])[2]
+2021-09-24 01:01:26,304 106837 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c9b767ebc3f64022d7393d440b657d
+2021-09-24 01:01:26,305 106838 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
+2021-09-24 01:01:26,305 106838 [main] ERROR fill_CCEnrollmentForm:DropDown  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getTagName()" because "element" is null
+2021-09-24 01:01:26,305 106838 [main] INFO  Element Located in OR  - Element with DepStartYear1 Found in OR
+2021-09-24 01:01:26,306 106839 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='startYear'])[2]
+2021-09-24 01:01:41,452 121985 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c9b767ebc3f64022d7393d440b657d
+2021-09-24 01:01:41,453 121986 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
+2021-09-24 01:01:41,453 121986 [main] ERROR fill_CCEnrollmentForm:DropDown  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getTagName()" because "element" is null
+2021-09-24 01:01:41,453 121986 [main] INFO  Element Located in OR  - Element with DepEndYear1 Found in OR
+2021-09-24 01:01:41,453 121986 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='endYear'])[2]
+2021-09-24 01:01:56,549 137082 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c9b767ebc3f64022d7393d440b657d
+2021-09-24 01:01:56,550 137083 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
+2021-09-24 01:01:56,550 137083 [main] ERROR fill_CCEnrollmentForm:DropDown  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getTagName()" because "element" is null
+2021-09-24 01:01:56,550 137083 [main] INFO  Element Located in OR  - Element with MilitaryRelationship Found in OR
+2021-09-24 01:01:56,551 137084 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='militaryRealtionship']
+2021-09-24 01:01:56,601 137134 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: driver.version: unknown
-2021-09-17 15:44:50,482 130338 [main] INFO  Element Located in OR  - Element with AddDeployment Found in OR
-2021-09-17 15:44:50,482 130338 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@class='addBtn mw_165']
-2021-09-17 15:45:05,540 145396 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e602329ea01cc42f833e6511627c567
-2021-09-17 15:45:05,541 145397 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
-2021-09-17 15:45:05,542 145398 [main] ERROR Exception  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null
-2021-09-17 15:45:05,542 145398 [main] ERROR fill_CCEnrollmentForm:WebUIElement  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null
-2021-09-17 15:45:05,542 145398 [main] INFO  Element Located in OR  - Element with DepOperation1 Found in OR
-2021-09-17 15:45:05,543 145399 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='location'])[2]
-2021-09-17 15:45:20,587 160443 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e602329ea01cc42f833e6511627c567
-2021-09-17 15:45:20,588 160444 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
-2021-09-17 15:45:20,588 160444 [main] ERROR fill_CCEnrollmentForm:TextBox  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "this.b.element" is null
-2021-09-17 15:45:20,589 160445 [main] INFO  Element Located in OR  - Element with DepCountry1 Found in OR
-2021-09-17 15:45:20,589 160445 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='country'])[2]
-2021-09-17 15:45:35,663 175519 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e602329ea01cc42f833e6511627c567
-2021-09-17 15:45:35,664 175520 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
-2021-09-17 15:45:35,665 175521 [main] ERROR fill_CCEnrollmentForm:DropDown  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getTagName()" because "element" is null
-2021-09-17 15:45:35,666 175522 [main] INFO  Element Located in OR  - Element with DepStartYear1 Found in OR
-2021-09-17 15:45:35,667 175523 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='startYear'])[2]
-2021-09-17 15:45:50,687 190543 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e602329ea01cc42f833e6511627c567
-2021-09-17 15:45:50,688 190544 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
-2021-09-17 15:45:50,689 190545 [main] ERROR fill_CCEnrollmentForm:DropDown  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getTagName()" because "element" is null
-2021-09-17 15:45:50,689 190545 [main] INFO  Element Located in OR  - Element with DepEndYear1 Found in OR
-2021-09-17 15:45:50,690 190546 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & (//*[@formcontrolname='endYear'])[2]
-2021-09-17 15:46:05,728 205584 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e602329ea01cc42f833e6511627c567
-2021-09-17 15:46:05,729 205585 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
-2021-09-17 15:46:05,730 205586 [main] ERROR fill_CCEnrollmentForm:DropDown  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getTagName()" because "element" is null
-2021-09-17 15:46:05,730 205586 [main] INFO  Element Located in OR  - Element with MilitaryRelationship Found in OR
-2021-09-17 15:46:05,731 205587 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='militaryRealtionship']
-2021-09-17 15:46:05,790 205646 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "mat-select"
+2021-09-24 01:01:56,601 137134 [main] INFO  Element Located in OR  - Element with MRDescription Found in OR
+2021-09-24 01:01:56,601 137134 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='militaryRelationshipDescription']
+2021-09-24 01:01:56,646 137179 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "textarea"
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: driver.version: unknown
-2021-09-17 15:46:05,791 205647 [main] INFO  Element Located in OR  - Element with MRDescription Found in OR
-2021-09-17 15:46:05,791 205647 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@formcontrolname='militaryRelationshipDescription']
-2021-09-17 15:46:05,820 205676 [main] ERROR fill_CCEnrollmentForm:DropDown  - org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "textarea"
+2021-09-24 01:01:56,647 137180 [main] INFO  Element Located in OR  - Element with SaveAndContinue Found in OR
+2021-09-24 01:01:56,647 137180 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text()=' Save and Continue']
+2021-09-24 01:01:56,778 137311 [main] INFO  fill_CCEnrollmentForm:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (94c9b767ebc3f64022d7393d440b657d)] -> xpath: //*[text()=' Save and Continue']]is clicked successfully.
+2021-09-24 01:01:57,747 138280 [main] INFO  global.DataReader$::PreRequisites:DataReader  - Navigated to sheet name : ETS_Login
+2021-09-24 01:01:57,880 138413 [main] INFO  ETS.ETS_Login$TestFlow:PreRequisites:DataReader  -  CommonData sheet is not present in Data_Mobile.xlsx
+2021-09-24 01:01:58,206 138739 [main] INFO  wdm.WebDriverManager  - Using chromedriver 94.0.4606.41 (since Google Chrome 94 is installed in your machine)
+2021-09-24 01:01:58,216 138749 [main] INFO  wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\SunilSaxena\.m2\repository\webdriver\chromedriver\win32\94.0.4606.41\chromedriver.exe
+2021-09-24 01:01:59,381 139914 [main] INFO  open_browser:Browser  - Google Chrome is Launched : ChromeDriver: chrome on WINDOWS (ecb547c14c55f58c4da6b194c1ad344d)
+2021-09-24 01:01:59,502 140035 [main] INFO  open_browser:Browser  - Browser Maximize
+2021-09-24 01:02:20,982 161515 [main] INFO  open_browser:Browser  - Opening URL https://dev.aosen.ai/rivendell/#/SignIn
+2021-09-24 01:02:20,983 161516 [main] INFO  Reading the OR File Using Excel  - Starting the Excel-OR Reading
+2021-09-24 01:02:21,036 161569 [main] INFO  Reading the OR File Using Excel  - Completed the Excel-OR Reading
+2021-09-24 01:02:21,037 161570 [main] INFO  Element Located in OR  - Element with LoginID Found in OR
+2021-09-24 01:02:21,037 161570 [main] INFO  login:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@id='loginId']
+2021-09-24 01:02:21,216 161749 [main] INFO  login:TextBox  - Values are sucessfully entered in textbox.NA272583
+2021-09-24 01:02:21,216 161749 [main] INFO  Element Located in OR  - Element with Password Found in OR
+2021-09-24 01:02:21,216 161749 [main] INFO  login:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@id='password']
+2021-09-24 01:02:21,358 161891 [main] INFO  login:TextBox  - Values are sucessfully entered in textbox.llUU12!@
+2021-09-24 01:02:21,359 161892 [main] INFO  Element Located in OR  - Element with SignIN Found in OR
+2021-09-24 01:02:21,359 161892 [main] INFO  login:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text() = ' SIGN IN']
+2021-09-24 01:02:21,443 161976 [main] INFO  login:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (ecb547c14c55f58c4da6b194c1ad344d)] -> xpath: //*[text() = ' SIGN IN']]is clicked successfully.
+2021-09-24 01:02:21,444 161977 [main] INFO  Reading the OR File Using Excel  - Starting the Excel-OR Reading
+2021-09-24 01:02:21,492 162025 [main] INFO  Reading the OR File Using Excel  - Completed the Excel-OR Reading
+2021-09-24 01:02:41,493 182026 [main] INFO  Element Located in OR  - Element with Username Found in OR
+2021-09-24 01:02:41,493 182026 [main] INFO  homePage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[@class='userNameText']
+2021-09-24 01:02:56,520 197053 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: unknown
-2021-09-17 15:46:05,821 205677 [main] INFO  Element Located in OR  - Element with SaveAndContinue Found in OR
-2021-09-17 15:46:05,821 205677 [main] INFO  fill_CCEnrollmentForm:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text()=' Save and Continue']
-2021-09-17 15:46:05,904 205760 [main] INFO  fill_CCEnrollmentForm:WebUIElement  - Element: [[ChromeDriver: chrome on WINDOWS (9e602329ea01cc42f833e6511627c567)] -> xpath: //*[text()=' Save and Continue']]is clicked successfully.
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ecb547c14c55f58c4da6b194c1ad344d
+2021-09-24 01:02:56,521 197054 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
+2021-09-24 01:02:56,521 197054 [main] ERROR Exception  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null
+2021-09-24 01:02:56,522 197055 [main] ERROR homePage:WebUIElement  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null
+2021-09-24 01:02:56,522 197055 [main] INFO  Element Located in OR  - Element with LogOff Found in OR
+2021-09-24 01:02:56,522 197055 [main] INFO  homePage:ElementValue  - Property Values returned from Properties.xlsx: xpath & //*[text() = 'Log off']
+2021-09-24 01:03:11,544 212077 [main] ERROR Exception  - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-7E3L7E1', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\SUNILS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ecb547c14c55f58c4da6b194c1ad344d
+2021-09-24 01:03:11,544 212077 [main] INFO  <init>:UIElement: Finding Element  - Issue occurs while finding element
+2021-09-24 01:03:11,545 212078 [main] ERROR Exception  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null
+2021-09-24 01:03:11,545 212078 [main] ERROR homePage:WebUIElement  - java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.b.element" is null

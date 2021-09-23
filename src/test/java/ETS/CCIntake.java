@@ -7,8 +7,8 @@ import FrameworkSource.global.*;
 //import framework_global.reporter.*;
 import FrameworkSource.global.reporter.*;
 import java.util.HashMap;
+import org.testng.annotations.Test;
 import java.io.IOException;
-import org.junit.*;
 
 
 

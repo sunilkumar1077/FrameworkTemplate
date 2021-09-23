@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -82,7 +83,9 @@ public void InitiateBrowser(String BrowserType) throws InterruptedException, IOE
 				{
 					System.setProperty("webdriver.chrome.driver",  System.getProperty("user.dir") + "\\src\\test\\resources\\browserdrivers\\chromedriver.exe");
 				}
-				driver = new ChromeDriver(); 
+				ChromeOptions chromeOptions = new ChromeOptions();
+				chromeOptions.addArguments("--disable-gpu");
+				driver = new ChromeDriver(chromeOptions); 
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				ReportEvents.Done(callerClassName+":Browser", "Google Chrome is Launched : "+ driver);
 				//Logger.INFO("Browser", "Google Chrome is Launched : "+ driver);	
